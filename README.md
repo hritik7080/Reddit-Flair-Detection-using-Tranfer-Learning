@@ -21,11 +21,15 @@ requirements.txt file is avilable inside the project's folder
 ### Web Application
 Execute following command-
 - cd Flare_Detector
-- python manage.py runserver
+- python manage.py runserver<br>
 Then open url http://127.0.0.0:8000 on your browser.
 
 ### RESTful API
 Use Post request with url http://127.0.0.0:8000/file/upload/<br>
 Use a text file to upload with key=files
+Use Postman to check the API.
+
+### Screenshots of Web Application
+![Screenshot (563)](https://user-images.githubusercontent.com/41755284/80311395-1199f700-87fd-11ea-8b07-ac606a54f90f.png)
 
 
