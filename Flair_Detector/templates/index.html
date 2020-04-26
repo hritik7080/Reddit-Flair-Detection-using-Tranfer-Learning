@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LogIn | Treetop Bookshop</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--Bootstrap Javascript-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<style type="text/css" media="screen">
+        
+		.form{
+			margin-top: 12%;
+		}
+        @media only screen and(max-width:570px){
+            .form{
+                margin-top: 18%;
+            }
+        }
+		#first{
+			margin-top: 15px;
+		}
+
+		input{
+			min-width:100%;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="font-size:23px; font-family: 'Ubuntu', sans-serif;">Reddit Flair Detector</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+
+            </ul>
+        </div>
+    </div>
+</div>
+	<div class="container form">
+		<div class="col-xs-10 col-xs-offset-1">
+			<div class="jumbotron">
+			<div class="row">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h2 style="font-family: 'Ubuntu', sans-serif; font-size">Enter the Post's Link</h2>
+					</div>
+					<div class="container">
+						<div class="panel body">
+							<form class="form" method="post">
+								{{ form.as_p }}
+   								{% csrf_token %}
+								<input type="submit" name="submit" value="Check Flair" class="btn btn-primary form-control">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+				{% if mess is not None %}
+				<h3>Title:</h3>
+				<p>{{ title }}</p>
+				<h3>Flair:</h3>
+				<p>{{ mess }}</p>
+				{% endif %}
+		</div>
+	</div>
+	</div>
+	
+</body>
+</html>
