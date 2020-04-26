@@ -14,3 +14,6 @@ Create your reddit application first from <a href="https://www.reddit.com/prefs/
 - Paste the kaggle username and key in the file when needed.
 - Open the notebook on Google Colab.
 
+### RESTful API
+Use posts request with url htp://127.0.0.0:8000/file/upload/<br>
+Use a text file to upload with key=files
