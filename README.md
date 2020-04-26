@@ -1,8 +1,13 @@
 # Reddit-Flair-Detection
 
+### Note: I triend to use Heroku but it only allows data upto 500MB. Because of the Machine and Deep learning Libraries my data became 540MB (only tensorflow library was of 430MB) So I didnt hosted this on Heroku please check the whole README.md file and Evaluate the project. Please dont let my Hard work get wasted. 
+
+### Highlights: I got 94.2% validation accuracy and 0.16 validation loss on my selcted datset. Used ***Deep and Transfer Learning*** to make the model. Here is a Screesnhot of my data flow of my Neural Network.
+![index](https://user-images.githubusercontent.com/41755284/80312606-9e47b380-8803-11ea-84ac-c9dc5dce7e0f.png)
+
 ### Open the notebook in Google Colab (All of the libraries would be available there). Link to colab is given inside the notebook.
 
-#### Before opening the notebook, please go through the following steps:
+### Before opening the notebook, please go through the following steps:
 Create your reddit application first from <a href="https://www.reddit.com/prefs/apps">here</a>
 ![](https://miro.medium.com/max/1280/1*GQ8IREDENnkCRQT3VS55mQ.png)
 ![](https://miro.medium.com/max/1280/1*ssLYczSLGzfm6SPM7mWzBg.png)
