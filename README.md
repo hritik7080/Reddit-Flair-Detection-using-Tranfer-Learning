@@ -14,9 +14,18 @@ Create your reddit application first from <a href="https://www.reddit.com/prefs/
 - Paste the kaggle username and key in the file when needed.
 - Open the notebook on Google Colab.
 
+### Install Required Library
+requirements.txt file is avilable inside the project's folder
+- pip install -r requirement.txt
+
+### Web Application
+Execute following command-
+- cd Flare_Detector
+- python manage.py runserver
+Then open url http://127.0.0.0:8000 on your browser.
+
 ### RESTful API
 Use Post request with url http://127.0.0.0:8000/file/upload/<br>
 Use a text file to upload with key=files
 
-### Required Library
-requirements.txt file is avilable inside the project's folder
+
