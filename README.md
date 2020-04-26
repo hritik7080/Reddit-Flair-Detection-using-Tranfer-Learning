@@ -19,6 +19,7 @@ requirements.txt file is avilable inside the project's folder
 - pip install -r requirement.txt
 
 ### Web Application
+Write your reddit credentials in views.py file inside Flare_Detector_app folder<br>
 Execute following command-
 - cd Flare_Detector
 - python manage.py runserver<br>
