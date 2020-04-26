@@ -15,5 +15,8 @@ Create your reddit application first from <a href="https://www.reddit.com/prefs/
 - Open the notebook on Google Colab.
 
 ### RESTful API
-Use posts request with url htp://127.0.0.0:8000/file/upload/<br>
+Use Post request with url htp://127.0.0.0:8000/file/upload/<br>
 Use a text file to upload with key=files
+
+### Required Library
+requirements.txt file is avilable inside the project's folder
