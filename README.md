@@ -1,8 +1,8 @@
 # Reddit-Flair-Detection
 
-### Open the notebook in Google Colab. Link to colab is given inside the notebook.
+### Open the notebook in Google Colab (All of the libraries would be available there). Link to colab is given inside the notebook.
 
-### Data Collection
+#### Before opening the notebook, please go through the following steps:
 Create your reddit application first from <a href="https://www.reddit.com/prefs/apps">here</a>
 ![](https://miro.medium.com/max/1280/1*GQ8IREDENnkCRQT3VS55mQ.png)
 ![](https://miro.medium.com/max/1280/1*ssLYczSLGzfm6SPM7mWzBg.png)
