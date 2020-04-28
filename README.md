@@ -34,8 +34,10 @@ Then open url http://127.0.0.0:8000 on your browser.
 Use Post request with url http://127.0.0.0:8000/file/upload/<br>
 Use a text file to upload with key=files
 Use Postman to check the API.
+You have to paste the link of the post in the file. Each link should be in a new line.
 
 ### Screenshots of Web Application
 ![Screenshot (563)](https://user-images.githubusercontent.com/41755284/80311395-1199f700-87fd-11ea-8b07-ac606a54f90f.png)
+Paste the link of post in the input field and check flair.
 
 
