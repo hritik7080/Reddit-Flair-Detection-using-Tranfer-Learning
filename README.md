@@ -1,7 +1,7 @@
 # Reddit-Flair-Detection
 
 ### Highlights:
-I got 94.2% validation accuracy and 0.16 validation loss on my dataset. Used ***Deep and Transfer Learning*** to make the model. Here is a Screesnhot of my data flow of my Neural Network.
+I got 94.2% validation accuracy and 0.16 validation loss on my dataset. Used ***Deep and Transfer Learning*** to make the model. Here is a Screenshot of the data flow of my Neural Network.
 ![index](https://user-images.githubusercontent.com/41755284/80312606-9e47b380-8803-11ea-84ac-c9dc5dce7e0f.png)
 
 ### Open the notebook in Google Colab (All of the libraries would be available there). Link to colab is given inside the notebook.
