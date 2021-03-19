@@ -8,6 +8,6 @@ pytz==2017.3
 whitenoise==3.3.1
 pandas==0.24.2
 numpy==1.16.6
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 nltk==3.4.5
 praw==7.0.0
