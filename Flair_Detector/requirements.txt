@@ -1,6 +1,6 @@
 tensorflow==1.15.2
 keras==2.3.1
-Django==3.0.3
+Django==3.1.6
 dj-database-url==0.4.2
 gunicorn==19.7.1
 psycopg2==2.7.3.2
